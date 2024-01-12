@@ -13,7 +13,7 @@ import navigationcomponentturtorialcom.example.aidlserver.IMyAidlInterface
 
 class MainActivity : AppCompatActivity() {
     var iMyAidlInterface : IMyAidlInterface? = null
-    private var TAG : String = "vietnam"
+    private var TAG : String = "CheckService"
     private var mServiceConnection : ServiceConnection = object : ServiceConnection{
         //Called when the connection with the service is established.
         override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
